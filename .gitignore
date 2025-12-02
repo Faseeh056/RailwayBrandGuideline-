@@ -9,8 +9,6 @@ build/
 dist/
 
 # Environment variables
-.env
-.env.local
 .env.*.local
 .env.backup
 .env.example
@@ -83,7 +81,6 @@ tmp/
 temp/
 
 # Editor directories and files
-.vscode/*
 !.vscode/extensions.json
 .idea
 *.suo
@@ -112,3 +109,4 @@ gen-lang-client-*.json
 *-client-*.json
 
 *.onnx
+config.bat
